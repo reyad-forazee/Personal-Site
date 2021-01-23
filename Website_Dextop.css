@@ -1,0 +1,118 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+/* Nevbar Design Start Here */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4  {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nevbar{
+    background-color: rgb(12, 160, 180);
+}
+
+.nev-logo{
+    text-align: left;
+
+}
+.nev-heading h1{
+    text-align: right;
+}
+
+.nev-menu{
+    flex-direction: row;
+    justify-content: end;
+    
+   
+    
+    
+}
+.nev-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: rgb(153, 8, 117);  
+}
+/* Nevbar Design Ends Here */
+
+
+
+/* profile design start here */
+.profile .top-love{
+    position: absolute;
+    right: 200px;
+    top: 28px;
+
+    height: 190px;
+    width: 160px;
+
+    transition: transform 2s;
+}
+
+.profile .top-love:hover{
+    transform: rotate(360deg); 
+    
+    height: 220px;
+    width: 190px;
+}
+/* profile design ends here */
+
+
+
+
+
+/* About Me design start here */
+
+.about-me p{
+    text-align: left;
+}
+.about-me-image{
+    margin-top: 100px;
+}
+/* About Me design Ends here */
+
+
+
+
+/* Professional Experience Card menu start */
+.professional-exp{
+    padding: 1px 5px;
+}
+
+/* Professional Experience Card menu Ends here */
+
+
+
+/* Achieve-contact Design  start form Here */
+.achieve{
+    padding-right: 20px;
+}
+
+.contact button{
+    
+    width: 50%;
+    
+}
+/* Achieve-contact Design  Ends Here */
+
+
+
+/* Footer Start from here */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
